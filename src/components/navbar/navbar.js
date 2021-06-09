@@ -1,5 +1,7 @@
 import React from "react";
-import './navbar.css'
+import './navbar.css';
+
+import { connect } from 'react-redux';
 
 class Navbar extends React.Component {
 
@@ -30,4 +32,8 @@ class Navbar extends React.Component {
     }
 }
 
-export default Navbar;
+const mapStateToProps = state => ({
+    clicked: state.clicked
+})
+
+export default connect(mapStateToProps)(Navbar);
