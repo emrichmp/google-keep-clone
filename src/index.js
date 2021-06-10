@@ -13,7 +13,7 @@ const initialState = {
 
 function reducer(state = initialState, action) {
   switch(action.type){
-    case "CLICK-VIEW":
+    case "CLICKVIEW":
       return {
         clicked: !state.clicked
       }

@@ -5,14 +5,8 @@ import { connect } from 'react-redux';
 
 class Navbar extends React.Component {
 
-    state = {
-        clicked: false
-    }
-
     handleClick = () => {
-        this.setState({
-            clicked: !this.state.clicked
-        })
+        this.props.dispatch({ type:"CLICKVIEW" })
     }
 
     render(){
@@ -24,7 +18,7 @@ class Navbar extends React.Component {
                         <i className="fas fa-redo"></i>
                         <br></br>
                         <div className="view-icon" onClick={this.handleClick}>
-                            <i className={this.state.clicked ? 'fas fa-grip-horizontal' : 'fas fa-bars'}></i>
+                            <i className={this.props.clicked ? 'fas fa-grip-horizontal' : 'fas fa-bars'}></i>
                         </div>
                 </nav>
             </div>
