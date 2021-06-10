@@ -14,7 +14,7 @@ class Navbar extends React.Component {
             <div>
                 <nav className="Navbar">
                     <h1 className="Navbar-header"><i className="far fa-lightbulb"></i> Keep</h1>
-                        <input type="text" placeholder="Search"></input>
+                        <input className="searchbar" type="text" placeholder="Search"></input>
                         <i className="fas fa-redo"></i>
                         <br></br>
                         <div className="view-icon" onClick={this.handleClick}>
