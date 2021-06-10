@@ -4,9 +4,31 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+
+const initialState = {
+  clicked: false
+}
+
+function reducer(state = initialState, action) {
+  switch(action.type){
+    case "CLICK-VIEW":
+      return {
+        clicked: !state.clicked
+      }
+      default:
+        return state;
+  }
+}
+
+const store = createStore(reducer)
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
