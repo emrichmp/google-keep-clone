@@ -6,23 +6,14 @@ import reportWebVitals from './reportWebVitals';
 
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
+import { combineReducers } from 'redux';
+import viewReducer from './reducers/viewReducer'
 
-const initialState = {
-  clicked: false
-}
+const rootReducer = combineReducers({
+  viewReducer: viewReducer
+})
 
-function reducer(state = initialState, action) {
-  switch(action.type){
-    case "CLICKVIEW":
-      return {
-        clicked: !state.clicked
-      }
-      default:
-        return state;
-  }
-}
-
-const store = createStore(reducer)
+const store = createStore(rootReducer)
 
 ReactDOM.render(
   <React.StrictMode>

@@ -27,7 +27,7 @@ class Navbar extends React.Component {
 }
 
 const mapStateToProps = state => ({
-    clicked: state.clicked
+    clicked: state.viewReducer.clicked
 })
 
 export default connect(mapStateToProps)(Navbar);
