@@ -2,6 +2,7 @@
 
 ### Goal
 Hey! Personally I use Google Keep all the time and I love the way it looks! I also love how fast and easy to use it is! This is my attempt in recreating something like it to better increase my understanding of React and Redux! It would be awesome if you would like to check it out and let me know what you think!
+If you aren't familiar with Google Keep you can check it out [here!](https://keep.google.com/)
 
 ### Installation Instructions
 if you want to experiment with this app or run it locally, fork and clone this repo!
