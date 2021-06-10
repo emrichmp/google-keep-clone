@@ -1,6 +1,6 @@
 # Google Keep Clone
 
-![keep]https://images.idgesg.net/images/article/2020/08/15-google-keep-android-view-100853530-large.jpg
+![keep](https://images.idgesg.net/images/article/2020/08/15-google-keep-android-view-100853530-large.jpg)
 
 ### Goal
 Hey! Personally I use Google Keep all the time and I love the way it looks! I also love how fast and easy to use it is! This is my attempt in recreating something like it to better increase my understanding of React and Redux! It would be awesome if you would like to check it out and let me know what you think!
