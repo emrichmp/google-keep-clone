@@ -13,6 +13,7 @@ if you want to experiment with this app or run it locally, fork and clone this r
 If you have any questions about this app or want to reach me at all you can message me on [LinkedIn](https://www.linkedin.com/in/emrich-michael-perrier/)
 Additionally you can check out my blog and other projects here:
 [Medium](https://emrichmp.medium.com/)
+
 [Github](https://github.com/emrichmp/)
 
 # Getting Started with Create React App
