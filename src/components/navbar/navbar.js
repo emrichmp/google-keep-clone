@@ -20,6 +20,7 @@ class Navbar extends React.Component {
                         <div className="view-icon" onClick={this.handleClick}>
                             <i className={this.props.clicked ? 'fas fa-grip-horizontal' : 'fas fa-bars'}></i>
                         </div>
+                        <i className="fas fa-cog"></i>
                 </nav>
             </div>
         )
