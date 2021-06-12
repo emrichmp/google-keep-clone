@@ -21,6 +21,12 @@
 [] - Side bar
     [] - Archive
     [] - ...
-    
+
 # Goal Technologies To Use
+[] - React
+[] - Redux
+[] - Thunk
+[] - React Router
+[] - Oauth??? - google
+[] - Make Proj SPA, no reloads or anything
 
