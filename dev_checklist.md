@@ -9,7 +9,18 @@
 [] - Showing all Note components below
 [] - Side bar?
 
-# Notes
+# Parts
+[] - Navbar
 
+[] - Create Note
+    [] - Form
+    [] - form expands on create click
+    [] - Title and field
+    [] - check boxes???
+
+[] - Side bar
+    [] - Archive
+    [] - ...
+    
 # Goal Technologies To Use
 
