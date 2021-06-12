@@ -4,6 +4,10 @@
 [] - Build backend???
 
 # Plan
+[] - NavBar
+[] - Creating a Component
+[] - Showing all Note components below
+[] - Side bar?
 
 # Notes
 
