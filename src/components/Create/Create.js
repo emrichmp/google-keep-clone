@@ -9,11 +9,11 @@ class Create extends React.Component {
         clicked: false
     }
 
-    clickHandler(){
-        // this.setState({
-        //     clicked: true
-        // })
-        console.log("clicked")
+    clickHandler = () => {
+        this.setState({
+            clicked: !this.state.clicked
+        })
+        console.log(this.state.clicked)
     }
 
     render(){
@@ -25,7 +25,6 @@ class Create extends React.Component {
                         <p>
                             <textarea name="content"
                             placeholder="Take a note...">
-
                             </textarea>
                         </p>
                     </form>
