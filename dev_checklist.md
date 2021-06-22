@@ -2,6 +2,7 @@
 [] - Figure out spacing of the top navbar
 [] - Figure out how to build notes
 [] - Build backend???
+[] - Figure out how to change state when clicking the form so that it expands
 
 # Plan
 [] - NavBar
