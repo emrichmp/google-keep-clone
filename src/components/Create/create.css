@@ -22,3 +22,14 @@ form input{
     font-size: 1rem;
     resize: none;
 }
+
+form textarea{
+    width: 100;
+    border: none;
+    margin: 4px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
