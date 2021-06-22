@@ -6,7 +6,15 @@ class Create extends React.Component {
     render(){
         return(
             <div>
-                <textarea className="new-note" placeholder="Take a note..."></textarea>
+                <form>
+                    <input type="text" placeholder="Title" name="title"/>
+                    <p>
+                        <textarea name="content"
+                        placeholder="Take a note...">
+
+                        </textarea>
+                    </p>
+                </form>
             </div>
         )
     }
