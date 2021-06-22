@@ -6,11 +6,14 @@ import './create.css';
 class Create extends React.Component {
 
     state = {
-        clicked: true
+        clicked: false
     }
 
     clickHandler(){
-        console.log("yo")
+        // this.setState({
+        //     clicked: true
+        // })
+        console.log("clicked")
     }
 
     render(){
@@ -30,7 +33,7 @@ class Create extends React.Component {
             )
         } else {
             return(
-                <div>
+                <div onClick={this.clickHandler}>
                     <form>
                         <input type="text" placeholder="Title" name="title"/>
                     </form>
