@@ -4,6 +4,7 @@
 [] - Figure out how to build notes
 [] - Build backend???
 [X] - Figure out how to change state when clicking the form so that it expands
+[] - Change Create.js into a function component -> allows for us to use useState
 
 # Plan
 [] - NavBar
