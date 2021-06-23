@@ -1,13 +1,12 @@
 import React from 'react';
 
-//This component will be the individual notes
-
-class Note extends React.Component{
-    render(){
-        return(
-            <div>I am a note</div>
-        )
-    }
+function Note(props) {
+    return (
+        <div className="note">
+            <h1>My Note</h1>
+            <p>What's up my dude!</p>
+        </div>
+    )
 }
 
 export default Note;
