@@ -19,7 +19,7 @@ class Create extends React.Component {
     render(){
         if (this.state.clicked === true){
             return(
-                <div>
+                <div onClick={this.clickHandler}>
                     <form>
                         <input type="text" placeholder="Title" name="title"/>
                         <p>
