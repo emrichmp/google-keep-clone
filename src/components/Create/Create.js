@@ -4,6 +4,10 @@ import './create.css';
 
 class Create extends React.Component {
 
+    // const [ note, setnote ] = useState({
+        
+    // })
+
     state = {
         clicked: false
     }
