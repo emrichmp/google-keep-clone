@@ -1,6 +1,5 @@
 import React from 'react';
 import './create.css';
-//import { connect } from 'react-redux';
 
 class Create extends React.Component {
 
@@ -16,7 +15,6 @@ class Create extends React.Component {
         this.setState({
             clicked: !this.state.clicked
         })
-        // this.props.dispatch({ type: "test" });
         console.log(this.state.clicked)
     }
 
@@ -46,9 +44,4 @@ class Create extends React.Component {
     }
 }
 
-// const mapStateToProps = state => ({
-//     clicked: state.clicked
-// })
-
-// export default connect(mapStateToProps)(Create);
 export default (Create);
