@@ -1,11 +1,13 @@
 .Navbar {
-    background: rgb(245, 245, 233);
     color: rgb(172, 170, 170);
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    border-bottom: solid;
+    border-color: grey;
+    border-width: thin;
 }
 
 .Navbar-header {
