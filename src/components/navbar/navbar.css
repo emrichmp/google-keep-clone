@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.fa-lightbulb {
+    margin-left: -500px;
+}
+
 .searchbar {
     box-sizing: border-box;
     border-radius: 6px;
