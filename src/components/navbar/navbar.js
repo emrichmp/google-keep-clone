@@ -13,6 +13,7 @@ class Navbar extends React.Component {
         return (
             <div>
                 <nav className="Navbar">
+                <i className='fas fa-bars'></i>
                     <h1 className="Navbar-header"><i className="far fa-lightbulb"></i> Keep</h1>
                         <input className="searchbar" type="text" placeholder="Search"></input>
                         <i className="fas fa-redo"></i>
